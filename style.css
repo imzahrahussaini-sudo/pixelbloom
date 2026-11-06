@@ -1071,3 +1071,16 @@ body { font-family: "Poppins", "Segoe UI", Arial, sans-serif; }
     transform: translateX(-50%);
   }
 }
+
+
+@media (max-width: 600px) {
+  .project-img {
+    height: auto;
+  }
+
+  .project-img img {
+    position: static;
+    height: auto;
+    object-fit: contain;
+  }
+}
